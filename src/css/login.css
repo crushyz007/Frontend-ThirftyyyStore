@@ -1,0 +1,14 @@
+body{
+    background-color: #F8F8F8
+    ;
+}
+
+.winkle1{
+    position: absolute;
+    width: 676px;
+    height: 510px;
+    /* left: calc(50% - 676px/2 - 464px);
+    top: calc(50% - 510px/2 + 322px); */
+    background: radial-gradient(50% 50% at 57.88% 47.16%, #FFC9C1 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 1px;
+}
