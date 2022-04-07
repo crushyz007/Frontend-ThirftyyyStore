@@ -71,7 +71,7 @@ body{
 {
     margin-left: 40px;
 }
-label{
+.form-group label{
     display:flex;
     font-weight:400;
     font-size: 14px;
@@ -136,9 +136,29 @@ label{
     margin-left: 10px;
     margin-right: 10px;
 }
+
 .font4{
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif !important;
     color: #423F48;
-    font-weight:400;
+    font-weight: 400;
+    margin-top: 70px;
+    margin-left: 170px;
+}
+
+.font5{
+    margin-top: -328px;
+    margin-left: 320px;
+}
+
+.font7{
+    margin-top: -30px;
+    margin-left: 380px;
+}
+
+.purplefont{
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif !important;
+    color: #9B84E8;
+    font-weight: 400;
 }

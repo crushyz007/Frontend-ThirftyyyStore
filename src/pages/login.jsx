@@ -28,7 +28,7 @@ const Login = () => {
                             <input type="password" name="pass" />
                         </div>
                         <div>
-                                <button class="button">Sign in</button>
+                                <button className="button">Sign in</button>
                         </div>
                     </form>
 
@@ -38,8 +38,10 @@ const Login = () => {
                         <div className="line"></div>
                     </div>
 
-                    <p className="font4">Don't have an account ?</p><p></p>
-                    <Link to='/register'><button>Register</button></Link>
+                    <p className="font4">Don't have an account ?</p>
+                    <Link to='/register'><p className="purplefont font7"> Sign Up</p></Link>
+                    
+                    <Link to="/reset"><p className="purplefont font5">Forgot Password</p></Link>
                 </div>
 
             </div>
