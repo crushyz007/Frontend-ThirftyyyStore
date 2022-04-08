@@ -11,21 +11,32 @@
     margin-top: 8% !important;
     
 }
+.winkle3{
+    top: 320px;
+    left: 120px;
+    background: radial-gradient(50% 50% at 49.81% 47.16%, #FFC9C1 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+.winkle4{
+    top: 100px;
+    left: 150px;
+    background: radial-gradient(50% 50% at 53.31% 53.88%, rgba(255, 119, 184, 0.53) 0%, rgba(255, 255, 255, 0) 100%);
+}
 .font__groupRegister{
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 40px;
 }
 .form-groupRegister{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .form-groupRegister label{
     display:flex;
     font-weight:400;
     font-size: 14px;
-    font-family: 'Ubuntu', sans-serif !important;
+    font-family: 'Noto Sans Thai', sans-serif !important;
     color: #423F48;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }   
 .form-groupRegister input{
     width: 390px;
@@ -45,14 +56,15 @@
 }
 .font6{
     font-size: 14px;
-    font-family: 'Ubuntu', sans-serif !important;
+    font-family: 'Noto Sans Thai', sans-serif !important;
     color: #423F48;
     font-weight: 400;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 190px;
 }
 
 .font8{
-    margin-top: -16px;
-    margin-left: 210px;
+    margin-left: 170px;
+    margin-top: -22px;
+    font-family: 'Noto Sans Thai', sans-serif !important;
 }

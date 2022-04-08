@@ -20,28 +20,28 @@ const Login = () => {
                     </div>
                     <form className="form-group">
                         <div className="item1">
-                            <label >Username <br /></label>
+                            <label >ชื่อผู้ใช้งาน <br /></label>
                             <input type="text" name="uname" />
                         </div >
                         <div className="item2">
-                            <label >Password <br /></label>
+                            <label >รหัสผ่าน <br /></label>
                             <input type="password" name="pass" />
                         </div>
                         <div>
-                                <button className="button">Sign in</button>
+                                <button className="button">เข้าสู่ระบบ</button>
                         </div>
                     </form>
 
                     <div className="line-group">
                         <div className="line"></div>
-                        <p className="font3">OR</p>
+                        <p className="font3">หรือ</p>
                         <div className="line"></div>
                     </div>
 
-                    <p className="font4">Don't have an account ?</p>
-                    <Link to='/register'><p className="purplefont font7"> Sign Up</p></Link>
+                    <p className="font4">ยังไม่มีบัญชีใช่ไหม ?</p>
+                    <Link to='/register' style={{ textDecoration: 'none' }}><p className="purplefont font7"> สมัครเลย</p></Link>
                     
-                    <Link to="/reset"><p className="purplefont font5">Forgot Password</p></Link>
+                    <Link to="/reset" style={{ textDecoration: 'none' }}><p className="purplefont font5">ลืมรหัสผ่าน ?</p></Link>
                 </div>
 
             </div>
