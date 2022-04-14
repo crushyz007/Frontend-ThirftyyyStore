@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../css/register.css'
+import '../css/RegisterPage.css'
 
 const Register = () => {
     return (
-        <div>
+        <div className="BodyBox">
             <div className="winkle">
                 <div class="winkle winkle3"></div>
                 <div class="winkle winkle4"></div>

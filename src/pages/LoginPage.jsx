@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../css/login.css'
+import '../css/LoginPage.css'
 
 const Login = () => {
     return (
@@ -9,9 +9,9 @@ const Login = () => {
                 <div class="winkle winkle1"></div>
                 <div class="winkle winkle2"></div>
             </div>
-
+            <div className="BodyBox">
             <div className="box">
-                <div class="linearbox"></div>
+                <div class="linearbox"><Link to='/profile'><button>click</button></Link></div>
                 
                 <div>
                     <div className="font__group">
@@ -45,6 +45,7 @@ const Login = () => {
                 </div>
 
             </div>
+    </div>
     </div>
     )
 }

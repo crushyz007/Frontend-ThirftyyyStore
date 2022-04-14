@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../css/reset.css'
+import '../css/ResetPage.css'
 
 const Reset = () =>{
     return(
-        <div>
+        <div className="BodyBox">
             <div className="winkle">
                 <div class="winkle winkle5"></div>
                 <div class="winkle winkle6"></div>

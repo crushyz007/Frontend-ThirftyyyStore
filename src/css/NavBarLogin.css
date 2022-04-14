@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} */
+/* Navbar Login */
+.navbar {
+    background-color: var(--navbar-background);
+}
+
+.container__nav
+{   
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between !important;
+}
+
+.nav__text{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.trade__text
+{
+    color: #705D96 !important;
+}
+.goods__text
+{
+    color: #705D96 !important;
+}
+.auction__text
+{
+    color: #705D96 !important;
+}
+.nav-logo {
+    width: 50px;
+}
+.contain__btn
+{
+    margin-right: 20px;
+}
+.navbar__collapse > .contain__btn
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.navbar__collapse > .nav__text
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px !important; 
+}
+.btn-login {
+    background-color: #9B84E8;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+    border: 0;
+    letter-spacing: 1px;
+}
+
+.btn-login:hover {
+    background-color: #927cd7;
+    color: rgb(255, 255, 255);
+}
+
+.btn-login:active  {
+    transform: translateY(0.5px) !important;
+}
+
+.btn-signup {
+    color: #9A82CA;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 95px;
+    height: 40px;
+    border-radius: 6px;
+    border: 0px;
+    letter-spacing: 1px;
+}
+
+.btn-signup:hover {
+    color: white;
+    background-color: #9B84E8;
+}
+
+.btn-signup:active {
+
+    background-color: #927cd7 ;
+    color: white;
+    border: none;
+    transform: translateY(0.5px) !important;
+}
+
+/* Navbar Acc */
+.contain__right
+{
+    margin-right: 25px;
+}
+.acc__dropdown
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+#collasible-nav-dropdown
+{
+    color: #705D96 ;
+    
+}
+.logo__bar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dropdown-item
+{
+    color: #423F48 !important;
+}
+.dropdown-menu
+{
+    background-color: #EFEFEF !important;
+    border: none !important;
+    border-radius: 8px !important;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.259) !important;
+}
+
+/* .dropdown-item:focus
+{
+    background-color: #CCC1EA !important;
+} */
+.dropdown-item:hover
+{
+    background-color: #ccc1ea9d !important;
+}
+/* .dropdown-button-drop
+{
+    
+} */
+.dropdown-toggle::after
+{
+    display: none !important;
+}
+.logout__text
+{
+    color: #FF0000 !important;
+}
