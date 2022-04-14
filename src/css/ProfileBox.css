@@ -40,3 +40,46 @@
 .Profile_Pic{
     border-radius: 20px;
 }
+
+.Profile__Info{
+    position: fixed;
+    margin-left: 400px;
+    margin-top: -40px;
+}
+
+.Profile__Info label{
+    color: #705D96;
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px !important;
+}
+
+.Profile__Info .label_2{
+    color: #9A82CA;
+}
+.itemindent{
+    margin-top:20px !important;
+}
+
+
+.Profile__Edit{
+    position: fixed;
+    margin-left: 400px;
+    margin-top: -40px;
+}
+.Profile__Edit label{
+    color: #705D96;
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0px !important;
+}
+.Profile__Button input{
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: 400;
+    color: #9A82CA;
+    margin-top: -30px;
+    margin-left: 130px;
+    position: absolute;
+}

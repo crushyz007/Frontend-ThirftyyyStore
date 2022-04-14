@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500&display=swap');
 
-.ProfilePageFont{
+/* .ProfilePageFont{
     font-family: 'Ubuntu', sans-serif !important;
     font-size: 50px !important;
     font-weight: 400;
     color: #705D96;
     margin-top: 45px;
     margin-left: 20px;
-}
+} */
 
 .Profile__Button{
     position: absolute;
@@ -16,12 +16,6 @@
     padding-top: 440px;
 }
 
-.Profile__Button input{
-    font-family: 'Ubuntu', sans-serif !important;
-    font-weight: 400;
-    color: #9A82CA;
-
-}
 .Profile__Button button{
     width: 220px;
     height: 50px;
@@ -30,47 +24,18 @@
     border-radius: 14px;
     font-family: 'Noto Sans Thai', sans-serif !important;
 }
-.Profile__Button .purple_Btn{
-    background: #9A82CA;
-    color: #FFFFFF;
-}
+
 .Profile__Button .white_Btn{
     background: #ffffff;
     color: #705D96;
 }
 
 .Profile__Button .white_Btn:hover{
-    background-color: #9A82CA;
+    background-color: rgb(130, 114, 183);
     color: #F8F8F8;
     border: none;
 }
 .edit_BtnPos{
-    margin-left:450px;
+    margin-left:400px;
+    margin-top: -20px;
 }
-
-.Profile__Info{
-    position: fixed;
-    /* display: flex; */
-    margin-left: 300px;
-    margin-top: -90px;
-
-}
-/* .Profile__Info .indent{
-    /* margin-left: 2px; 
-    margin-top:30px;
-} */
-.Profile__Info label{
-    color: #705D96;
-    font-family: 'Noto Sans Thai', sans-serif !important;
-    font-weight: 400;
-    font-size: 16px;
-}
-.itemindent{
-    /* position: fixed !important; */
-    margin-top:20px !important;
-}
-
-/* .item_Info{
-    position: fixed;
-    /* margin-top: -100px !important; 
-} */

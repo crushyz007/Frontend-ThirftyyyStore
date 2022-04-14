@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500&display=swap');
+
+.Profile__Button .purple_Btn{
+    background: #9A82CA;
+    color: #FFFFFF;
+    margin-left:350px;
+}
+
+.Profile__Button .purple_Btn:hover{
+    background-color: rgb(130, 114, 183);
+    color: #ffffff;
+    border: none;;
+}
+.Profile__Button .cancel_BtnPos{
+    margin-left: 20px;
+}
