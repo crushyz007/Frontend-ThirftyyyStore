@@ -6,6 +6,7 @@ import RegisterPage from './pages/RegisterPage'
 import ResetPage from './pages/ResetPage'
 import ProfilePage from './pages/ProfilePage';
 import EditProfilePage from './pages/EditProfilePage';
+import ChangeEmailPage from './pages/ChangeEmailPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/reset' element={ <ResetPage/>} />
           <Route path='/profile' element={ <ProfilePage/>} />
           <Route path='/editprofile' element={ <EditProfilePage />} />
+          <Route path='/changemail' element={ <ChangeEmailPage />} />
       </Routes>
       </BrowserRouter>
     </div>

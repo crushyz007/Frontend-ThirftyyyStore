@@ -20,7 +20,7 @@ const EditProfile = () =>{
 
                 <div className="itemindent">
                     <label>อีเมล :</label> 
-                    <label className="updateFont">อัปเดตที่อยู่อีเมล</label>
+                    <Link to="/changemail"><label className="updateFont">อัปเดตที่อยู่อีเมล</label></Link>
                 </div>
                 <input type="text" name="email"></input>
                 <div className="itemindent">
@@ -32,14 +32,14 @@ const EditProfile = () =>{
                     <i class="fi fi-sr-pencil"></i>
                 </div>
                 <input type="text" name="addr"></input> <br />
-                <label className="updateFont2">เปลี่ยนรหัสผ่าน</label>
+                <label className="updateFont updateFont2">เปลี่ยนรหัสผ่าน</label>
             </div>
 
             <div className="Profile__Button">
                     <input type="file" />
                     <button className="purple_Btn">บันทึก</button>
                         <div className="cancel_BtnPos">
-                            <button className="white_Btn">ยกเลิก</button>
+                            <Link to='/profile'><button className="white_Btn">ยกเลิก</button></Link>
                         </div>
             </div>
             </div>

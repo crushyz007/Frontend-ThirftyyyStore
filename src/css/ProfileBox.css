@@ -95,6 +95,7 @@
 .Profile__Edit .updateFont{
     font-size: 12px;
     margin-left: 140px!important; 
+    cursor: pointer;
 }
 
 .Profile__Edit .updateFont2{

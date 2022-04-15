@@ -19,6 +19,7 @@
 .fi{
     color: #b7b7b7;
     margin-left: 210px;
+    cursor: pointer;
 }
 .fi-sr-pencil{
     font-size: 13px;

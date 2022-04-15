@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500&display=swap');
+
+.boxChange{
+    display:flex;
+    width: 750px;
+    height: 462px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(155, 132, 232, 0.25);
+    border-radius: 50px;
+    margin-top: 12%;
+}
