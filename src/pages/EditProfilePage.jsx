@@ -9,29 +9,39 @@ const EditProfile = () =>{
     return(
         <div>
             <NavBarAcc />
-            <div className="BodyBox">
+            <div className="BodyBox"> 
             <BoxProfile />
-            <div className="Profile__Edit">
+            <div className="Profile__Edit"> 
                 <div>
                     <label>ชื่อ :</label>
+                    <i class="fi fi-rr-exclamation"></i>
                 </div>
+                <input type="text" name="name"></input>
+
                 <div className="itemindent">
-                    <label>อีเมล :</label>
+                    <label>อีเมล :</label> 
+                    <label className="updateFont">อัปเดตที่อยู่อีเมล</label>
                 </div>
+                <input type="text" name="email"></input>
                 <div className="itemindent">
                     <label>หมายเลขโทรศัพท์ :</label>
                 </div>
+                <input type="tel" name="tel"></input>
                 <div className="itemindent">
                     <label>ที่อยู่ :</label>
+                    <i class="fi fi-sr-pencil"></i>
                 </div>
+                <input type="text" name="addr"></input> <br />
+                <label className="updateFont2">เปลี่ยนรหัสผ่าน</label>
             </div>
+
             <div className="Profile__Button">
                     <input type="file" />
                     <button className="purple_Btn">บันทึก</button>
                         <div className="cancel_BtnPos">
                             <button className="white_Btn">ยกเลิก</button>
                         </div>
-                    </div>
+            </div>
             </div>
         </div>
     )

@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500&display=swap');
 
-/* .ProfilePageFont{
-    font-family: 'Ubuntu', sans-serif !important;
-    font-size: 50px !important;
-    font-weight: 400;
-    color: #705D96;
-    margin-top: 45px;
-    margin-left: 20px;
-} */
-
 .Profile__Button{
     position: absolute;
     display: flex;

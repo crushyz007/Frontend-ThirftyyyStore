@@ -8,7 +8,7 @@ import BoxProfile from '../component/ProfileBox';
 const Profile = () =>{
     return(
         <div>
-            {/* <NavBarAcc/> */}
+            <NavBarAcc/>
             
                 <div className="BodyBox">
                     <BoxProfile />

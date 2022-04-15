@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
 
 .Profile__Button .purple_Btn{
     background: #9A82CA;
     color: #FFFFFF;
     margin-left:350px;
 }
-
 .Profile__Button .purple_Btn:hover{
     background-color: rgb(130, 114, 183);
     color: #ffffff;
@@ -14,4 +15,14 @@
 }
 .Profile__Button .cancel_BtnPos{
     margin-left: 20px;
+}
+.fi{
+    color: #b7b7b7;
+    margin-left: 210px;
+}
+.fi-sr-pencil{
+    font-size: 13px;
+}
+.itemindent{
+    margin-top:15px !important;
 }
