@@ -1,0 +1,15 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
+.Change__Info .fi{
+    color: #b7b7b7;
+    cursor: pointer;
+    position: absolute;
+}
+.Change__Info .fi-ss-eye{
+    margin-left:330px;
+}
+.Change__Info .fi-sr-eye-crossed{
+    margin-left:330px;
+}

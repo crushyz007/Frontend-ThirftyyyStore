@@ -10,3 +10,76 @@
     border-radius: 50px;
     margin-top: 12%;
 }
+.boxChange .purpleStuff{
+    margin-top: -45px;
+    margin-left: 0px;
+}
+.ProfileFont{
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    margin-top: -60px;
+    margin-left:15px
+}
+.Change__Button{
+    margin-top: 350px;
+    margin-left: 120px;
+}
+.Change__Button .purple_Btn:hover{
+    background-color: rgb(130, 114, 183);
+    color: #F8F8F8;
+    border: none;
+}
+.Change__Button .white_Btn:hover{
+    background-color: rgb(130, 114, 183);
+    color: #F8F8F8;
+    border: none;
+}
+.Change__Button .purple_Btn{
+    background: #9A82CA;
+    border: 2px solid #9A82CA;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: #FFFFFF;
+    width: 230px;
+    height: 50px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.Change__Button .white_Btn{
+    background: #FFFFFF;
+    border: 2px solid #9A82CA;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: #9A82CA;
+    width: 230px;
+    height: 50px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    margin-left: 20px;
+}
+.Change__Topic{
+    position: absolute;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #705D96;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 410px;
+}
+.Change__Info{
+    position: absolute;
+}
+.Change__Info label{
+    color: #705D96;
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    font-weight: 400;
+    font-size: 20px;
+}
+.Change__Info input{
+    width: 480px;
+    height:40px;
+    background: #F5F2FF;
+    border-radius: 5px;
+    border: none;
+    color: #9A82CA;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 10px;
+}

@@ -24,8 +24,8 @@
     font-size: 25px !important;
     font-weight: 400;
     color: #705D96;
-    margin-top: 45px;
-    margin-left: 25px;
+    margin-top: 45px !important;
+    margin-left: 25px !important;
 }
 
 .ProfilePic_Box{
@@ -91,6 +91,12 @@
     background: #F5F2FF;
     border-radius: 4px;
     border: none;
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    font-size:15px;
+    font-weight: 400;
+    color: #9A82CA;
+    text-indent:10px;
+    
 }
 .Profile__Edit .updateFont{
     font-size: 12px;

@@ -16,14 +16,14 @@
 .Profile__Button .cancel_BtnPos{
     margin-left: 20px;
 }
-.fi{
+.Profile__Edit .fi{
     color: #b7b7b7;
     margin-left: 210px;
     cursor: pointer;
 }
-.fi-sr-pencil{
+.Profile__Edit .fi-sr-pencil{
     font-size: 13px;
 }
-.itemindent{
+.Profile__Edit .itemindent{
     margin-top:15px !important;
 }

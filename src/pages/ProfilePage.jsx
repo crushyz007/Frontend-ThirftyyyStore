@@ -13,11 +13,10 @@ const Profile = () =>{
                 <div className="BodyBox">
                     <BoxProfile />
                     <div className="Profile__Info">
-                            
-                                <div className="itemindent">    
-                                    <label>ชื่อ : <br /></label>
-                                </div>
-                                    <label className="label_2">User Name</label>
+                            <div className="itemindent">    
+                                <label>ชื่อ : <br /></label>
+                            </div>
+                                <label className="label_2">User Name</label>
                             
                             <div className="itemindent">
                                 <label>อีเมล : <br /></label>
