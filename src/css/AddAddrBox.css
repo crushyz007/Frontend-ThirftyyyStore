@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
+.boxAddr{
+    background-color: #9b8ad2;
+    width: 1100px;
+    height: 160px;
+    border-radius: 14px;
+}
+.fi-rs-marker{
+    position: absolute;
+    color:#ffffff;
+    font-size: 25px;
+    margin-top: -40px;
+    margin-left: 1060px;
+}

@@ -1,8 +1,8 @@
 import React from "react";
 import "../css/ChangeEmailPage.css"
 import "../css/ChangeBox.css"
-import NavBarAcc from '../component/NavBarAcc';
-import BoxChange from '../component/ChangeBox';
+import NavBarAcc from '../components/NavBarAcc';
+import BoxChange from '../components/ChangeBox';
 import { useState } from "react";
 
 const ChangeEmail = () =>{

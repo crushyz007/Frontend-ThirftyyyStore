@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../css/ProfilePage.css"
 import "../css/ProfileBox.css"
-import NavBarAcc from '../component/NavBarAcc';
-import BoxProfile from '../component/ProfileBox';
+import NavBarAcc from '../components/NavBarAcc';
+import BoxProfile from '../components/ProfileBox';
 
 const Profile = () =>{
     return(

@@ -15,3 +15,13 @@
     margin-top: 40px;
     margin-left:330px;
 }
+.Change__Info .fi-rr-exclamation{
+    color: #b7b7b7 !important;
+    margin-left:355px;
+    margin-top: 5px;
+}
+.ChangePassEye_Pos{
+    position: absolute;
+    margin-top:-225px;
+    margin-left:130px;
+}
