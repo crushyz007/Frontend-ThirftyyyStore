@@ -8,7 +8,8 @@ import ProfilePage from './pages/ProfilePage';
 import EditProfilePage from './pages/EditProfilePage';
 import ChangeEmailPage from './pages/ChangeEmailPage';
 import ChangePassPage from './pages/ChangePassPage';
-import ChangeAddrPage from './pages/ChangeAddrPage'
+import ChangeAddrPage from './pages/ChangeAddrPage';
+import AddAddrPage from './pages/AddAddrPage';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/changemail' element={ <ChangeEmailPage />} />
           <Route path='/changepass' element={ <ChangePassPage />} />
           <Route path='/changeaddr' element={ <ChangeAddrPage />} />
+          <Route path='/addaddr' element={ <AddAddrPage />} />
       </Routes>
       </BrowserRouter>
     </div>

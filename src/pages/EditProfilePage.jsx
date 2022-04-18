@@ -4,7 +4,7 @@ import "../css/EditProfilePage.css"
 import "../css/ProfileBox.css"
 import NavBarAcc from '../components/NavBarAcc';
 import BoxProfile from '../components/ProfileBox';
-import { Tooltip } from "react-bootstrap";
+// import { Tooltip } from "react-bootstrap";
 
 const EditProfile = () =>{
     return(
@@ -15,6 +15,7 @@ const EditProfile = () =>{
             <div className="Profile__Edit"> 
                 <div>
                     <label>ชื่อ :</label>
+                    {/* <Tooltip title="Delete"><button>asdasd</button></Tooltip> */}
                     <i class="fi fi-rr-exclamation"></i>
                 </div>
                     <input type="text" name="name" placeholder="User Name"></input>

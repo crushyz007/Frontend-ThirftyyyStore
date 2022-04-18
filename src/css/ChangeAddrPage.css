@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+.ChangAddr_Header{
+    margin-left: 10%;
+    margin-top:3%;
+    background-color: #F8F8F8; 
+}
+.purpleStuff_ChangeAddr{
+    width: 20px;
+    height: 10px;
+    background: #9A82CA;
+    border-radius: 4px;
+}
+.ChangeAddr_Font{
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #705D96;
+    margin-top: -25px;
+    margin-left: 30px;
+}
+.ChangeAddr_Line{
+    border: 1px solid #705D96;
+    width:1180px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.ChangeAddr_Box{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8F8F8; 
+}
+.ChangeAddr_AddBox{
+    width:1100px;
+    height: 70px;
+    border: 3px dashed #9A82CA;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.fi-rr-add{
+    color: #9A82CA;
+    font-size: 30px;
+    cursor: pointer;
+}
