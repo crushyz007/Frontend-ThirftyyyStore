@@ -5,7 +5,7 @@
 .ChangAddr_Header{
     margin-left: 10%;
     margin-top:3%;
-    background-color: #F8F8F8; 
+    background-color: #F8F8F8 !important; 
 }
 .purpleStuff_ChangeAddr{
     width: 20px;

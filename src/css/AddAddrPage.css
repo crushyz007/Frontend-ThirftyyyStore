@@ -1,0 +1,25 @@
+.boxindent{
+    margin-left: 10px;
+}
+
+.Dropdown_Color{
+    background-color:#E7E7E7!important;
+    color:#878787;
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    /* overflow-y: scroll; */
+}
+.Dropdown_Size{
+    width: fit-content;
+}
+.Form_Color{
+    background-color: #E7E7E7;
+    color:#878787;
+    font-family: 'Noto Sans Thai', sans-serif !important;
+}
+.test1{
+    position: absolute;
+    margin-left: -50px;
+}
+.test2{
+    margin-right: -30px;
+}

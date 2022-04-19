@@ -83,3 +83,57 @@
     font-weight: 400;
     text-indent: 10px;
 }
+
+.AddAddr__Info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    align-items: center;
+}
+.AddAddr__Info label{
+    color: #423F48;
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    font-weight: 500;
+    font-size: 15px;
+}
+.AddAddr__Info .input_Name{
+    width: 200px;
+    height:30px;
+    background: #E7E7E7;
+    border-radius: 2px;
+    border: none;
+    color: #878787;
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 10px;
+}
+.AddAddr__Info .input_Addr{
+    width: 140px;
+    height:30px;
+    background: #E7E7E7;
+    border-radius: 2px;
+    border: none;
+    color: #878787;
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 10px;
+}
+.AddAddr__Info .input_More{
+    width: 300px;
+    height:60px;
+    background: #E7E7E7;
+    border-radius: 2px;
+    border: none;
+    color: #878787;
+    font-family: 'Noto Sans Thai', sans-serif !important;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: 5px;
+}
+.AddAddr__Info .indent1{
+    margin-left: 30px;
+}
