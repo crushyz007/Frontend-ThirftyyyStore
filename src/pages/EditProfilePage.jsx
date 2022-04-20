@@ -1,12 +1,25 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "../css/EditProfilePage.css"
 import "../css/ProfileBox.css"
 import NavBarAcc from '../components/NavBarAcc';
 import BoxProfile from '../components/ProfileBox';
-// import { Tooltip } from "react-bootstrap";
-
+import { useState,useEffect} from "react";
+// import { Tooltip } from "react-bootstrap;"
 const EditProfile = () =>{
+    const [images, setImages] = useState([]); 
+    const [imageURLs, setImageURLs] = useState([]);
+
+    useEffect(() => {
+        if(images.length < 1) return;
+        const newImageUrls = [];
+        images.forEach(image => newImageUrls.push(URL.createObjectURL(image)))
+        setImageURLs(newImageUrls);
+    }, [images]);
+
+    function onImageChange(e) {
+        setImages([...e.target.files]);
+    }
+
     return(
         <div>
             <NavBarAcc />
@@ -40,8 +53,12 @@ const EditProfile = () =>{
             
             </div>
 
+            <div className="Profile__UploadBox">
+                {imageURLs.map((imageSrc, idx) => (<img key={idx} width="300" height="300" src={imageSrc} />))}
+            </div>
+            
             <div className="Profile__Button">
-                    <input type="file" />
+                    <input type="file" multiple accept="image/*" onChange={onImageChange} />
                     <button className="purple_Btn">บันทึก</button>
                         <div className="cancel_BtnPos">
                             <Link to='/profile'><button className="white_Btn">ยกเลิก</button></Link>

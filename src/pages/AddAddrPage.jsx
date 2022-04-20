@@ -3,9 +3,7 @@ import "../css/AddAddrPage.css"
 import "../css/ChangeBox.css"
 import NavBarAcc from '../components/NavBarAcc';
 import BoxChange from '../components/ChangeBox';
-import {  Dropdown, Form, Select } from "react-bootstrap";
-import { useState } from "react";
-import ReactDOM from "react-dom";
+import {Dropdown} from "react-bootstrap";
 
 const AddAddr = () =>{
 //     function MyForm() {

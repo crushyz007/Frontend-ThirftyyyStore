@@ -108,3 +108,9 @@
     font-size: 12px;
     margin-left: 185px!important; 
 }
+
+.Profile__UploadBox{
+    position: absolute;
+    margin-left:-258px;
+    margin-top:-3px;
+}
