@@ -10,6 +10,7 @@ import ChangeEmailPage from './pages/ChangeEmailPage';
 import ChangePassPage from './pages/ChangePassPage';
 import ChangeAddrPage from './pages/ChangeAddrPage';
 import AddAddrPage from './pages/AddAddrPage';
+import MyCartPage from './pages/MyCartPage';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path='/changepass' element={ <ChangePassPage />} />
           <Route path='/changeaddr' element={ <ChangeAddrPage />} />
           <Route path='/addaddr' element={ <AddAddrPage />} />
+          <Route path='/mycart' element={ <MyCartPage />} />
       </Routes>
       </BrowserRouter>
     </div>

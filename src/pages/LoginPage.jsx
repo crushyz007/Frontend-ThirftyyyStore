@@ -11,7 +11,10 @@ const Login = () => {
             </div>
             <div className="BodyBox">
                 <div className="box">
-                    <div class="linearbox"><Link to='/profile'><button>click</button></Link></div>
+                    <div class="linearbox">
+                        <Link to='/profile'><button>Profile</button></Link>
+                        <Link to='/mycart'><button>Cart</button></Link>
+                    </div>
                     
                     <div>
                         <div className="font__group">
