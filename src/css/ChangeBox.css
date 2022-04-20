@@ -91,6 +91,7 @@
     width: 700px;
     height: 300px;
     align-items: center;
+    margin-top: 20px;
 }
 .AddAddr__Info label{
     color: #423F48;
@@ -112,7 +113,7 @@
 }
 .AddAddr__Info .input_Addr{
     width: 140px;
-    height:30px;
+    height:35px;
     background: #E7E7E7;
     border-radius: 2px;
     border: none;

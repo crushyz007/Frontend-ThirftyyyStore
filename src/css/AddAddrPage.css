@@ -9,17 +9,53 @@
     /* overflow-y: scroll; */
 }
 .Dropdown_Size{
-    width: fit-content;
+    width: 30px;
+    height: 30px;
 }
 .Form_Color{
     background-color: #E7E7E7;
     color:#878787;
     font-family: 'Noto Sans Thai', sans-serif !important;
 }
-.test1{
-    position: absolute;
-    margin-left: -50px;
+.indentText_Line1{
+    margin-left:232px;
 }
-.test2{
-    margin-right: -30px;
+.indentText_Line2{
+    margin-left:30px;
+}
+.indentText2_Line2{
+    margin-left:104px;
+}
+.indentText3_Line2{
+    margin-left: 135px;
+}
+.indentBox_Line1{
+    margin-left:50px;
+}
+.indentBox_Line2{
+    margin-left: 30px;
+}
+.indentText1_Line3{
+    margin-left:-30px;
+}
+.indentText2_Line3{
+    margin-left:130px;
+}
+.indentText3_Line3{
+    margin-left: 90px;
+}
+.indentBox_Line3{
+    margin-top: -25px;
+}
+.indentBox1_Line3{
+    margin-left:200px;
+}
+.indentBox2_Line3{
+    margin-left: 30px;
+}
+.indentText_Line4{
+    margin-left: -222px;
+}
+.indentBox_Line4{
+    margin-left: -147px;
 }

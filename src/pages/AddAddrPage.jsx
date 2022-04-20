@@ -24,27 +24,27 @@ const AddAddr = () =>{
                 
                 <div className="AddAddr__Info">
                     <div>
-                        <label className="test1">ชื่อ</label>
-                        <label>นามสกุล</label> <br />
+                        <label>ชื่อ</label>
+                        <label className="indentText_Line1">นามสกุล</label> <br />
                         <input className="input_Name" type="text" name="name"></input>
-                        <input className="input_Name" type="text" name="sname"></input>
+                        <input className="input_Name indentBox_Line1" type="text" name="sname"></input>
                     </div>
 
                     <div>
-                        <label>ถนน / ซอย</label>
-                        <label>ตำบล</label>
-                        <label>อำเภอ / เขต</label> <br />
-                        <input className="input_Addr" type="text" name="road"></input>
-                        <input className="input_Addr" type="text" name="subdistrict"></input>
-                        <input className="input_Addr" type="text" name="district"></input>
+                        <label className="indentText_Line2" >ถนน / ซอย</label>
+                        <label className="indentText2_Line2">ตำบล</label>
+                        <label className="indentText3_Line2">อำเภอ / เขต</label> <br />
+                        <input className="input_Addr indentBox_Line2" type="text" name="road"></input>
+                        <input className="input_Addr indentBox_Line2" type="text" name="subdistrict"></input>
+                        <input className="input_Addr indentBox_Line2" type="text" name="district"></input>
                     </div>
                     <div>
-                        <label>จังหวัด</label>
-                        <label>รหัสไปรษณีย์</label>
-                        <label>เบอร์โทรศัพท์</label> <br />
+                        <label className="indentText1_Line3">จังหวัด</label>
+                        <label className="indentText2_Line3">รหัสไปรษณีย์</label>
+                        <label className="indentText3_Line3">เบอร์โทรศัพท์</label> <br />
                     
                     <Dropdown className="Dropdown_Size" >
-                            <Dropdown.Toggle id="dropdown-basic" className="Dropdown_Color"style={{overflowY:'scroll'}} >จังหวัด</Dropdown.Toggle>
+                            <Dropdown.Toggle id="dropdown-basic" className="Dropdown_Color" >จังหวัด</Dropdown.Toggle>
                             <Dropdown.Menu className="Dropdown_Color">
                                 <Dropdown.Item style={{height:"100px",width:"auto",overflowY:'auto'}}>
                                 <Dropdown.Item href="#/action-1" >กระบี่</Dropdown.Item>
@@ -156,12 +156,17 @@ const AddAddr = () =>{
                         </Form.Select> */}
                         
 
-                        <input className="input_Addr" type="text" name="postnum"></input>
-                        <input className="input_Addr" type="tel" name="tel"></input>
+                        
                     </div>
+                    <div className="indentBox_Line3">   
+                        <input className="input_Addr indentBox1_Line3" type="text" name="postnum"></input>
+                        <input className="input_Addr indentBox2_Line3" type="tel" name="tel"></input>
+                    </div> 
+
                     <div>
-                        <label>เพิ่มเติม</label> <br />
-                        <input className="input_More" type="text" name="more"></input>
+                        <label className="indentText_Line4">เพิ่มเติม</label> <br /></div>
+                    <div>    
+                        <input className="input_More indentBox_Line4" type="text" name="more"></input>
                     </div>
                 </div>
                 
