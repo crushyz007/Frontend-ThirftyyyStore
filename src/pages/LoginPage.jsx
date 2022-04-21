@@ -5,10 +5,10 @@ import '../css/LoginPage.css'
 const Login = () => {
     return (
         <div>
-            <div className="winkle">
+            {/* <div className="winkle">
                 <div class="winkle winkle1"></div>
                 <div class="winkle winkle2"></div>
-            </div>
+            </div> */}
             <div className="BodyBox">
                 <div className="box">
                     <div class="linearbox">

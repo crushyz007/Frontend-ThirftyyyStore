@@ -5,10 +5,10 @@ import '../css/ResetPage.css'
 const Reset = () =>{
     return(
         <div className="BodyBox">
-            <div className="winkle">
+            {/* <div className="winkle">
                 <div class="winkle winkle5"></div>
                 <div class="winkle winkle6"></div>
-            </div>
+            </div> */}
 
             <div className="boxReset">
                     <div className="font9 ">ลืมรหัสผ่าน ?</div>

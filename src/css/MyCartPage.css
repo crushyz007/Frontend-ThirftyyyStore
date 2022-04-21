@@ -1,6 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
+.MyCart__TopicPos{
+    margin-left: 0px;
+}
+.MyCart_TopicBox{
+    background-color: #F8F8F8; 
+    height: fit-content;
+    width: 1400px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 60px;
+}
 .purpleStuff_MyCart{
     width: 20px;
     height: 10px;
     background: #9A82CA;
     border-radius: 4px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.MyCart_Topic{
+    position: absolute;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #705D96;
+    font-size: 25px;
+    margin-top: -25px;
+    margin-left: 240px;
+}
+.Trash_Pos{
+    margin-left:1280px;
+    margin-top: -20px;
+}
+.fi-rr-trash{
+    font-size: 20px;
+    color: #EB6D60;
+    cursor: pointer;
+}
+.MyCart_Line{
+    border: 1px solid #705D96;
+    width:1110px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.MyCart_Font{
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #705D96;
+    font-size: 20px;
 }
