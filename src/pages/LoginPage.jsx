@@ -1,8 +1,47 @@
-import React from "react";
+import React,{ useState } from "react";
 import { Link } from "react-router-dom";
+import Form from "react-bootstrap/Form";
 import '../css/LoginPage.css'
 
 const Login = () => {
+
+    const adminUser ={
+        username:"admin1",
+        password:"admin"
+    }
+
+    const[user,setUser] = useState({username:""});
+    const[error,setError] = useState("");
+
+    const Login = details=>{
+        console.log(details);
+        
+        if (details.username == adminUser.username && details.password == adminUser.password){
+        console.log("Logged in");
+        }
+        else {
+            console.log("Invalid User");
+            setError("Invalid User");
+        }
+    }
+
+    // const Logout = () =>{
+    //     setUser({username:"",email:""})
+    //     console.log("Logout");
+    // }
+    const [details,setDetails] = useState({username:"",password:""});
+    
+
+    const submitHandler = e=>{
+        e.preventDefault();
+        Login(details);
+    }
+
+    const handleChange = e =>{
+        const{name,value} = e.target
+        setDetails({...details,[name]:value})
+    }
+
     return (
         <div>
             {/* <div className="winkle">
@@ -21,19 +60,20 @@ const Login = () => {
                             <div className="font1">Welcome to</div>
                             <div className="font2">Triftyyy Store !</div>
                         </div>
-                        <form className="form-group">
+
+                        <Form className="form-group" onSubmit={submitHandler}>
                             <div className="item1">
                                 <label >ชื่อผู้ใช้งาน <br /></label>
-                                <input type="text" name="uname" />
+                                <input type="text" name="username" id="username" onChange={handleChange}  />
                             </div >
                             <div className="item2">
                                 <label >รหัสผ่าน <br /></label>
-                                <input type="password" name="pass" />
+                                <input type="password" name="password" id="password" onChange={handleChange} />
                             </div>
                             <div>
-                                    <button className="button">เข้าสู่ระบบ</button>
+                                    <button className="button" type="submit">เข้าสู่ระบบ</button>
                             </div>
-                        </form>
+                        </Form>
 
                         <div className="line-group">
                             <div className="line"></div>
