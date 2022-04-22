@@ -11,7 +11,7 @@ const Login = () => {
     }
 
     const[user,setUser] = useState({username:""});
-    const[error,setError] = useState("");
+    const[noti,setNoti] = useState("");
 
     const Login = details=>{
         console.log(details);
@@ -21,7 +21,7 @@ const Login = () => {
         }
         else {
             console.log("Invalid User");
-            setError("Invalid User");
+            setNoti("ชื่อผู้ใช้งานหรือรหัสผ่านผิด");
         }
     }
 
@@ -58,7 +58,7 @@ const Login = () => {
                     <div>
                         <div className="font__group">
                             <div className="font1">Welcome to</div>
-                            <div className="font2">Triftyyy Store !</div>
+                            <div className="font2">Thriftyyy Store !</div>
                         </div>
 
                         <Form className="form-group" onSubmit={submitHandler}>
@@ -73,20 +73,22 @@ const Login = () => {
                             <div>
                                     <button className="button" type="submit">เข้าสู่ระบบ</button>
                             </div>
-                        </Form>
-
-                        <div className="line-group">
+                            <div className="line-group">
                             <div className="line"></div>
                             <p className="font3">หรือ</p>
                             <div className="line"></div>
                         </div>
-
                         <p className="font4">ยังไม่มีบัญชีใช่ไหม ?</p>
                         <Link to='/register' style={{ textDecoration: 'none' }}><p className="purplefont font7"> สมัครเลย</p></Link>
                         
                         <Link to="/reset" style={{ textDecoration: 'none' }}><p className="purplefont font5">ลืมรหัสผ่าน ?</p></Link>
-                    </div>
-
+                        
+                        
+                        </Form>
+                        {(noti != "")?(<div className="Login__Noti">{noti}</div>):""}
+                        
+                    </div> 
+                    
                 </div>
     </div>
     </div>
