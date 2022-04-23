@@ -59,12 +59,22 @@
     font-family: 'Noto Sans Thai', sans-serif !important;
     color: #423F48;
     font-weight: 400;
-    margin-top: 20px;
-    margin-left: 190px;
+    margin-top: 28px;
+    margin-left: 230px;
 }
 
 .font8{
-    margin-left: 170px;
+    margin-left: 110px;
     margin-top: -22px;
     font-family: 'Noto Sans Thai', sans-serif !important;
+}
+
+.Register__Noti{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Noto Sans Thai', sans-serif ;
+    color:rgb(244, 68, 68);
+    font-weight: 400;
+    margin-top: -138px;
+    margin-left:5px;
 }
