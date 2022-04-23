@@ -25,3 +25,13 @@
     margin-top:-225px;
     margin-left:130px;
 }
+
+.ChangePass__Noti{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Noto Sans Thai', sans-serif ;
+    color:rgb(244, 68, 68);
+    font-weight: 400;
+    margin-top: 7px;
+    margin-left: 5px;
+}

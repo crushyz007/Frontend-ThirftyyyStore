@@ -43,7 +43,10 @@ const Register = () => {
             setNoti("อีเมลไม่ถูกต้อง")
         }
         else if(!regexPass.test(details.password)&&(details.password!="")&&(details.password2!="")){
-            setNoti("ต้องมีอย่างต่ำ 8 ตัวอักษรตัวใหญ่ตัวเล็กและตัวเลขอย่างต่ำ 1 ตัว")
+            setNoti("รหัสต้องมีอย่างต่ำ 8 ตัวอักษรตัวใหญ่ตัวเล็กและตัวเลขอย่างต่ำ 1 ตัว")
+        }
+        else if(details.username.lenght>20){
+            setNoti("ชื่อผู้ใช้งานไม่สามารถเกิน 20 ตัวอักษรได้")
         }
     }
 

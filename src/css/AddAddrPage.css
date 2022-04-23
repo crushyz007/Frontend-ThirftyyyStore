@@ -59,3 +59,8 @@
 .indentBox_Line4{
     margin-left: -147px;
 }
+
+.AddAdr__BtnPos{
+    position: absolute;
+    margin-top: 0px;
+}

@@ -9,7 +9,7 @@
     border-radius: 38px;
     /* justify-content: center; */
     align-items: left;
-    margin-top: 10% !important;
+    margin-top: 25% !important;
 }
 
 .winkle5{
@@ -76,4 +76,14 @@
     font-family: 'Noto Sans Thai', sans-serif !important;
     margin-top:380px;
     margin-left:-260px;
+}
+
+.ResetPass__Noti{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Noto Sans Thai', sans-serif ;
+    color:rgb(244, 68, 68);
+    font-weight: 400;
+    margin-top: -10%;
+    margin-left: 60px;
 }

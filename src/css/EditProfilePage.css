@@ -27,3 +27,12 @@
 .Profile__Edit .itemindent{
     margin-top:15px !important;
 }
+.EditProfile__Noti{
+    position: absolute;
+    font-size: 13px;
+    font-family: 'Noto Sans Thai', sans-serif ;
+    color:rgb(244, 68, 68);
+    font-weight: 400;
+    margin-top: -140px;
+    margin-left:848px;
+}

@@ -4,7 +4,7 @@ import "../css/ChangeBox.css"
 import NavBarAcc from '../components/NavBarAcc';
 import BoxChange from '../components/ChangeBox';
 import {Dropdown} from "react-bootstrap";
-
+import { Link } from "react-router-dom";
 const AddAddr = () =>{
 //     function MyForm() {
 //         const [myProvince, setMyProvince] = useState("จังหวัด");
@@ -166,9 +166,18 @@ const AddAddr = () =>{
                     <div>    
                         <input className="input_More indentBox_Line4" type="text" name="more"></input>
                     </div>
+                
+                {/* <div className="AddAdr__BtnPos"> */}
+                <div className="Change__Button">
+                    <button className="purple_Btn" type="submit">บันทึก</button>
+                    <Link to="/editprofile"><button className="white_Btn">ยกเลิก</button></Link>
+                </div>   
+                {/* </div> */}
+
                 </div>
                 
             </div>
+            
         </div>
     )
 }

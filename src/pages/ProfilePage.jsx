@@ -6,6 +6,7 @@ import NavBarAcc from '../components/NavBarAcc';
 import BoxProfile from '../components/ProfileBox';
 
 const Profile = () =>{
+    
     return(
         <div>
             <NavBarAcc/>

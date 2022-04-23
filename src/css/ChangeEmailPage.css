@@ -15,3 +15,12 @@
     margin-top: 40px;
     margin-left:330px;
 }
+.ChangeEmail__Noti{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Noto Sans Thai', sans-serif ;
+    color:rgb(244, 68, 68);
+    font-weight: 400;
+    margin-top: -10%;
+    margin-left:34%;
+}
