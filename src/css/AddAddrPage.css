@@ -44,11 +44,11 @@
 .indentText3_Line3{
     margin-left: 90px;
 }
-.indentBox_Line3{
+/* .indentBox_Line3{
     margin-top: -25px;
-}
+}  */
 .indentBox1_Line3{
-    margin-left:200px;
+    margin-left:30px;
 }
 .indentBox2_Line3{
     margin-left: 30px;
@@ -63,4 +63,14 @@
 .AddAdr__BtnPos{
     position: absolute;
     margin-top: 0px;
+}
+
+.AddAddrPage__Noti{
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Noto Sans Thai', sans-serif ;
+    color:rgb(244, 68, 68);
+    font-weight: 400;
+    margin-top: -145px;
+    margin-left:528px;
 }

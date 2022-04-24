@@ -121,24 +121,24 @@ const EditProfile = () =>{
                         {/* <Tooltip title="Delete"><button>asdasd</button></Tooltip> */}
                         <i class="fi fi-rr-exclamation"></i>
                     </div>
-                        <input type="text" name="username" placeholder="User Name" value={details.username} onChange={handleChange}></input>
+                        <input type="text" name="username" placeholder={details.username} value={details.username} onChange={handleChange}></input>
 
                     <div className="itemindent">
                         <label>อีเมล :</label> 
                         <Link to="/changemail"><label className="updateFont">อัปเดตที่อยู่อีเมล</label></Link>
                     </div>
-                        <input type="text" name="email" placeholder="email@gmail.com" value={details.email} onChange={handleChange}></input>
+                        <input type="text" name="email" placeholder={details.email} value={details.email} onChange={handleChange}></input>
                     
                     <div className="itemindent">
                         <label>หมายเลขโทรศัพท์ :</label>
                     </div>
-                        <input type="tel" name="telnum" placeholder="0812345678" value={details.telnum} onChange={handleChange}></input>
+                        <input type="tel" name="telnum" placeholder={details.telnum} value={details.telnum} onChange={handleChange}></input>
                     
                     <div className="itemindent">
                         <label>ที่อยู่ :</label>
-                        <Link to="/changeaddr" style={{ textDecoration: 'none' }}><i class="fi fi-sr-pencil"></i></Link>
+                        <Link to="/addaddr" style={{ textDecoration: 'none' }}><i class="fi fi-sr-pencil"></i></Link>
                     </div>
-                        <input type="text" name="addr" placeholder="123/4 Ladkrabang, BKK 10520" value={details.addr} onChange={handleChange}></input> <br />
+                        <input type="text" name="addr" placeholder={details.addr} value={details.addr} onChange={handleChange}></input> <br />
                         <Link to="/changepass"><label className="updateFont updateFont2">เปลี่ยนรหัสผ่าน</label></Link>
                     
                 </Form>

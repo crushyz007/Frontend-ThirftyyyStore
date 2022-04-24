@@ -138,3 +138,39 @@
 .AddAddr__Info .indent1{
     margin-left: 30px;
 }
+
+.AddAddrChange__Button{
+    margin-top: 300px;
+    position: absolute;
+}
+.AddAddrChange__Button .purple_Btn:hover{
+    background-color: rgb(130, 114, 183);
+    color: #F8F8F8;
+    border: none;
+}
+.AddAddrChange__Button .white_Btn:hover{
+    background-color: rgb(130, 114, 183);
+    color: #F8F8F8;
+    border: none;
+}
+.AddAddrChange__Button .purple_Btn{
+    background: #9A82CA;
+    border: 2px solid #9A82CA;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: #FFFFFF;
+    width: 230px;
+    height: 50px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.AddAddrChange__Button .white_Btn{
+    background: #FFFFFF;
+    border: 2px solid #9A82CA;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: #9A82CA;
+    width: 230px;
+    height: 50px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    margin-left: 20px;
+}

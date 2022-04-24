@@ -42,9 +42,11 @@
 }
 
 .Profile__Info{
+    width:350px;
+    height: 350px;
     position: absolute;
-    margin-left: 400px;
-    margin-top: -40px;
+    margin-left: 500px;
+    margin-top: 40px;
     z-index: 2;
 }
 

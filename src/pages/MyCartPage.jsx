@@ -37,7 +37,7 @@ const MyCart = () =>{
                 </thead>
             </div>
         
-        {/* <Orders /> */}
+        <Orders />
             <Form>
                 {/* <div className="MyCart__Amount">
                     <div>
