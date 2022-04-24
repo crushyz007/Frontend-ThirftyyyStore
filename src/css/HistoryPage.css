@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500&display=swap');
+
+.purplestuff__History{
+    width: 20px;
+    height: 10px;
+    background: #9A82CA;
+    border-radius: 4px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.History__Topic{
+    position: absolute;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #705D96;
+    font-size: 25px;
+    margin-top: -25px;
+    margin-left: 240px;
+}
+
+.History__Line{
+    border: 1px solid #705D96;
+    width:1110px;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+.History__FontBox{
+    height: fit-content;
+    width: 1110px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.History__Font{
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #705D96;
+    font-size: 20px;
+}
+.History__FontBox .Font_Left{
+    margin-left: -70px;
+}

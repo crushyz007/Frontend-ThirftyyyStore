@@ -59,6 +59,7 @@ const Login = () => {
                     <div class="linearbox">
                         <Link to='/profile'><button>Profile</button></Link>
                         <Link to='/mycart'><button>Cart</button></Link>
+                        <Link to='/history'><button>History</button></Link>
                     </div>
                     
                     <div>

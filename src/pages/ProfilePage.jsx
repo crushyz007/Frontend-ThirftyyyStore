@@ -1,11 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import "../css/ProfilePage.css"
 import "../css/ProfileBox.css"
 import NavBarAcc from '../components/NavBarAcc';
 import BoxProfile from '../components/ProfileBox';
 
 const Profile = () =>{
+    
+    const[details,setDetails] = useState({username:"",email:"",telnum:"",addr:""})
+
+    // useEffect(()=>{
+    //     getProfile();      
+    // },[])
     
     return(
         <div>
@@ -17,23 +24,23 @@ const Profile = () =>{
                             <div className="itemindent">    
                                 <label>ชื่อ : <br /></label>
                             </div>
-                                <label className="label_2">User Name</label>
+                                <label className="label_2">{details.username}เอ</label>
                             
                             <div className="itemindent">
                                 <label>อีเมล : <br /></label>
                             </div>
-                                <label className="label_2">testemail@gmail.com</label>
+                                <label className="label_2">{details.email}Grace@gmail.com</label>
                             
 
                             <div className="itemindent">
                                 <label>หมายเลขโทรศัพท์: <br /></label>
                             </div>
-                                <label className="label_2">08123456789</label>
+                                <label className="label_2">{details.telnum}0812345678</label>
 
                             <div className="itemindent">
                                 <label>ที่อยู่: <br /></label>
                             </div>
-                                <label className="label_2">123/4 Ladkrabang, BKK 10520</label>
+                                <label className="label_2">{details.addr}123/1 Ladkrabang BKK 1050</label>
                             
                     </div>
                     
