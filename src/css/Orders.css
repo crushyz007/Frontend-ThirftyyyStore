@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500&display=swap');
 
 .Orders__BoxPos{
-    
+    margin-left: 200px;
 }
 
 .Orders__FontBox{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 1110px;
     height: fit-content;
     background-color: aqua;
+    margin-top: 10px;
     
 }
 .Orders__Font{
@@ -18,7 +19,15 @@
     color: #705D96;
     font-size: 20px;
 }
-
+.Orders__FontBox .Font__Left{
+    margin-left: -50px;
+}
+.Orders__FontBox .Font__Right{
+    margin-left: 160px;
+}
+.Orders__FontBox .Font__Right2{
+    margin-left: 13px;
+}
 .Orders__FontBox input[type=checkbox] + label {
     display: block;
     cursor: pointer;
@@ -50,4 +59,22 @@
     background-color: #EB6D60;
     border-color: #EB6D60;
     color: #fff;
+}
+
+.Orders__Btn{
+    width: 30px;
+    height: 30px;
+    background-color: #EB6D60;
+    border-radius:20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.Orders__Line{
+    border: 1px solid #705D96;
+    width:1110px;
+    margin-top: 20px;
 }

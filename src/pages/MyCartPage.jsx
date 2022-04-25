@@ -18,7 +18,7 @@ const MyCart = () =>{
             <div className="MyCart__TopicPos">
                 <div className="purpleStuff_MyCart"></div>
                 <div className="MyCart_Topic">ตะกร้าสินค้า</div>
-                <div className="Trash_Pos"><i class="fi fi-rr-trash" onClick={() => setModalShow(true)}></i></div>
+                {/* <div className="Trash_Pos"><i class="fi fi-rr-trash" onClick={() => setModalShow(true)}></i></div> */}
                 <div className="MyCart_Line"></div>
                 <RemoveCartModal 
                     show = {modalShow}
@@ -31,8 +31,9 @@ const MyCart = () =>{
                     <tr className="MyCart__Font" >จำนวน</tr>
                     <tr className="MyCart__Font" >ราคา</tr>
                     <tr className="MyCart__Font Font_Right" >
-                        <input type="checkbox" id="total" />
-                        <label for="total">ทั้งหมด</label>
+                        {/* <input type="checkbox" id="total" /> */}
+                        {/* <label for="total">ลบสินค้า</label> */}
+                        <i class="fi fi-rr-trash"></i>
                     </tr>
                 </thead>
             </div>
