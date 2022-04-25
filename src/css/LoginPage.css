@@ -125,7 +125,7 @@ body{
 
 .line-group{
     margin-top: 50px;
-    margin-left: 45px;
+    /* margin-left: 0px; */
     display: flex;
 }
 .line{
